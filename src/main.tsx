@@ -10,6 +10,8 @@ import FrequencyCounter from './components/frequencyCounter/FrequencyCounter';
 import MultiplePointers from './components/multiplepointers/MultiplePointers';
 import TwoPointer from './components/twoPointers/TwoPointer';
 import MaxSubarraySumKadane from './components/maxsubarraysumKadane/MaxSubarraySumKadane';
+import Practise1 from './components/practise1/Practisesection1';
+import PractiseSection from './components/practise1/PractiseSection';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -21,6 +23,9 @@ createRoot(document.getElementById('root')!).render(
           {/* Routes with sidebar */}
           <Route element={<LayoutWithSidebar />}>
             <Route path="frequencyCounter" element={<FrequencyCounter/>} />
+            <Route path="Practise1" element={<Practise1 />}>
+              <Route path=":name" element={<PractiseSection />} />
+            </Route>
             <Route path="multiplePointer" element={<MultiplePointers />} />
             <Route path="twoPointer" element={<TwoPointer/>} />
             <Route path="maxsubarray" element={<MaxSubarraySumKadane />} />
