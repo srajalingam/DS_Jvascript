@@ -27,7 +27,10 @@ const Practise1: React.FC = () => {
   return (
     <div>  
         <Link to="areThereDuplicates">areThereDuplicates</Link> &nbsp;
-        <Link to="constructNote">constructNote</Link>  
+        <Link to="constructNote">constructNote</Link> &nbsp;
+        <Link to="findAllDuplicate">findAllDuplicate</Link> &nbsp;
+        <Link to="averagePair">averagePair</Link> &nbsp;
+        <Link to="isSubsequence">isSubsequence</Link> &nbsp;
         <h1>Practise Section 1</h1>
         <p>This section is designed for practicing various coding problems and algorithms.</p>
         <p>
