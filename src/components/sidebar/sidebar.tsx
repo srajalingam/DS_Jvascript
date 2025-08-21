@@ -10,9 +10,6 @@ const Sidebar: React.FC = () => {
           <li>
             <Link to="/frequencyCounter">Frequency Counter</Link>
           </li>
-          <li>
-            <Link to="/Practise1">Practise Section1</Link>
-          </li>
            <li>
             <Link to="/multiplePointer">Muliple pointer pattern</Link>
           </li>
@@ -21,6 +18,9 @@ const Sidebar: React.FC = () => {
           </li>
           <li>
             <Link to="/maxsubarray">Kadane Pattern</Link>
+          </li>
+          <li>
+            <Link to="/Practise1">Practise Section1</Link>
           </li>
           <li>
             <Link to="/recursion">Recursion</Link>

@@ -7,6 +7,8 @@ import ConstructNote from "./constructNote";
 import FindAllDuplicate from "./findAllDuplicate";
 import AveragePair from "./averagePair";
 import IsSubsequence from "./isSubsequence";
+import SlidingwindowMaxSubarray from "../maxsubarraysumKadane/slidingwindowMaxSubarray";
+import FindLongestSubstring from "../maxsubarraysumKadane/findLongestSubstring";
 
 const PractiseSection: React.FC = () => {
   const { name } = useParams();
@@ -21,6 +23,10 @@ const PractiseSection: React.FC = () => {
       return <AveragePair />;
     case "isSubsequence":
       return <IsSubsequence />;
+    case "slidingwindowMaxSubarray":
+      return <SlidingwindowMaxSubarray />;
+    case "findLongestSubstring":
+      return <FindLongestSubstring />;
     default:
       return <h2>No matching practice found</h2>;
   }
