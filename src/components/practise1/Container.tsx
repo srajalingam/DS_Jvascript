@@ -31,6 +31,7 @@ const Practise1: React.FC = () => {
         <Link to="findAllDuplicate">findAllDuplicate</Link> &nbsp;|
         <Link to="averagePair">averagePair</Link> &nbsp;|
         <Link to="isSubsequence">isSubsequence</Link> &nbsp;|
+        <Link to="findMaxInSubArray">Bruitforce(findMaxInSubArray)</Link> &nbsp;|
         <Link to="slidingwindowMaxSubarray">Sliding Window Maximum Subarray</Link> &nbsp;|
         <Link to="findLongestSubstring">Find Longest Substring</Link> &nbsp;|
         <h1>Practise Section 1</h1>
