@@ -3,7 +3,6 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import { dark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 function findMaxInSubArray(arr: number[], subArraySize: number): number | null {
-    debugger;
   if (subArraySize > arr.length || subArraySize <= 0) return null;
     let maxSum = -Infinity;
     for (let i = 0; i <= arr.length - subArraySize; i++) {

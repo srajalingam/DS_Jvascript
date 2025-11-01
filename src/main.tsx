@@ -12,6 +12,7 @@ import TwoPointer from './components/twoPointers/TwoPointer';
 import MaxSubarraySumKadane from './components/maxsubarraysumKadane/MaxSubarraySumKadane';
 import Practise1 from './components/practise1/Container';
 import PractiseSection from './components/practise1/PractiseSection';
+import Practice from './components/recursion/recursionPractiseSection/Practice';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -29,7 +30,9 @@ createRoot(document.getElementById('root')!).render(
             <Route path="multiplePointer" element={<MultiplePointers />} />
             <Route path="twoPointer" element={<TwoPointer/>} />
             <Route path="maxsubarray" element={<MaxSubarraySumKadane />} />
-            <Route path="recursion" element={<Recursion />} />
+            <Route path="recursion" element={<Recursion />}>
+              <Route path=":name" element={<Practice />} />
+            </Route>
           </Route>
         </Route>
       </Routes>
